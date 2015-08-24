@@ -20,6 +20,19 @@
 	<gap:splash src="icon.png" />
     <platform name="android">
         <allow-intent href="market:*" />
+        <icon src="icon.png" density="ldpi" />
+	    <icon src="icon.png" density="mdpi" />
+	    <icon src="icon.png" density="hdpi" />
+	    <icon src="icon.png" density="xhdpi" />
+		<splash src="icon.png" density="land-hdpi"/>
+		<splash src="icon.png" density="land-ldpi"/>
+		<splash src="icon.png" density="land-mdpi"/>
+		<splash src="icon.png" density="land-xhdpi"/>
+
+		<splash src="res/screen/android/splash-port-hdpi.png" density="port-hdpi"/>
+		<splash src="res/screen/android/splash-port-ldpi.png" density="port-ldpi"/>
+		<splash src="res/screen/android/splash-port-mdpi.png" density="port-mdpi"/>
+		<splash src="res/screen/android/splash-port-xhdpi.png" density="port-xhdpi"/>
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
