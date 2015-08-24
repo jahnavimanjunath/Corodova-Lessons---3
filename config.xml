@@ -26,6 +26,10 @@
 		<splash src="splash.png" density="land-ldpi"/>
 		<splash src="splash.png" density="land-mdpi"/>
 		<splash src="splash.png" density="land-xhdpi"/>
+		<preference name="SplashScreen" value="splash" />
+        <preference name="SplashScreenDelay" value="10000" />
+		<preference name="show-splash-screen-spinner" value="true" />
+		<preference name="auto-hide-splash-screen" value="true" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
