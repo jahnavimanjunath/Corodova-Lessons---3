@@ -16,8 +16,8 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-	<icon src="icon.jpg" />
-	<gap:splash src="icon.jpg" />
+	<icon src="icon.png" />
+	<gap:splash src="icon.png" />
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
